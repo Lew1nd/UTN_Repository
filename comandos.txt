@@ -1,0 +1,6 @@
+code . = permite abrir el ejecutable de visual studio code a git.
+git init = permite crear o reiniciar un repositorio.
+git status = permite ver la información del repositorio.
+git add = pasa el archivo al staging area (área de seguimiento). Ej: texto1.txt.
+git commit = permite guardar las modificaciones hechas en un archivo agregado mediante git add.
+-m "texto" = permite añadir un mensaje al commit, es sugerible hacerlo para evitar entrar al editor de texto.
