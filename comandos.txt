@@ -6,3 +6,6 @@ git commit = permite guardar las modificaciones hechas en un archivo agregado me
 -m "texto" = permite añadir un mensaje al commit, es sugerible hacerlo para evitar entrar al editor de texto.
 git checkout (primeros seis números registros) = permite cargar una versión anterior de un commit.
 git log = permite ver todos los commit realizados y ver quíen lo hizo.
+git push origin master = permite añadir el contenido del repositorio local a uno remoto, origin hace referencia al repositorio remoto, mientras que master a su nivel de jerarquía.
+git clone = permite copiar todo el contenido del repositorio remoto (commits), siempre y cuando sean públicos o tengas acceso a ellos.
+git pull origin master = permite pasar los cambios realizados de un repositorio remoto a uno local (commit remoto a commit local).
